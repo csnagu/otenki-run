@@ -5,7 +5,6 @@ import sys
 
 import requests
 
-# ダブルクォートとシングルクォートを統一したい
 trello_querystring_template = {
     "key": os.getenv("TRELLO_KEY"),
     "token": os.getenv("TRELLO_TOKEN")
